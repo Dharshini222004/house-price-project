@@ -1,0 +1,2667 @@
+{
+  "metrics": {
+    "rows_used": 13280,
+    "mae_lakh": 37.307,
+    "rmse_lakh": 106.405,
+    "r2": 0.5824,
+    "features": [
+      "location",
+      "total_sqft",
+      "bhk",
+      "bath",
+      "balcony"
+    ],
+    "target_unit": "lakh rupees",
+    "dataset": "Bengaluru_House_Data.csv"
+  },
+  "location_stats": {
+    "1st Block HRBR Layout": {
+      "median_price_per_sqft": 17291.666666666664,
+      "median_price_lakh": 125.0,
+      "sample_count": 8.0
+    },
+    "1st Block Jayanagar": {
+      "median_price_per_sqft": 11942.82307940687,
+      "median_price_lakh": 139.0,
+      "sample_count": 14.0
+    },
+    "1st Block Koramangala": {
+      "median_price_per_sqft": 9468.08510638298,
+      "median_price_lakh": 255.0,
+      "sample_count": 10.0
+    },
+    "1st Phase JP Nagar": {
+      "median_price_per_sqft": 8425.613866153106,
+      "median_price_lakh": 167.0,
+      "sample_count": 25.0
+    },
+    "1st Stage Indira Nagar": {
+      "median_price_per_sqft": 5957.446808510638,
+      "median_price_lakh": 67.0,
+      "sample_count": 5.0
+    },
+    "2nd Block Hrbr Layout": {
+      "median_price_per_sqft": 7096.774193548387,
+      "median_price_lakh": 110.0,
+      "sample_count": 7.0
+    },
+    "2nd Phase JP Nagar": {
+      "median_price_per_sqft": 7500.0,
+      "median_price_lakh": 170.0,
+      "sample_count": 9.0
+    },
+    "2nd Phase Judicial Layout": {
+      "median_price_per_sqft": 3500.0,
+      "median_price_lakh": 47.25,
+      "sample_count": 11.0
+    },
+    "2nd Stage Nagarbhavi": {
+      "median_price_per_sqft": 18750.0,
+      "median_price_lakh": 236.5,
+      "sample_count": 24.0
+    },
+    "3rd Block Banashankari": {
+      "median_price_per_sqft": 14583.333333333334,
+      "median_price_lakh": 325.0,
+      "sample_count": 5.0
+    },
+    "3rd Block Hrbr Layout": {
+      "median_price_per_sqft": 8484.848484848484,
+      "median_price_lakh": 140.0,
+      "sample_count": 7.0
+    },
+    "4th Block Koramangala": {
+      "median_price_per_sqft": 12244.897959183674,
+      "median_price_lakh": 420.0,
+      "sample_count": 9.0
+    },
+    "4th T block Jayanagar": {
+      "median_price_per_sqft": 8538.461538461539,
+      "median_price_lakh": 220.0,
+      "sample_count": 7.0
+    },
+    "5th Block Hbr Layout": {
+      "median_price_per_sqft": 11482.843137254902,
+      "median_price_lakh": 205.0,
+      "sample_count": 12.0
+    },
+    "5th Phase JP Nagar": {
+      "median_price_per_sqft": 5034.482758620689,
+      "median_price_lakh": 63.0,
+      "sample_count": 39.0
+    },
+    "6th Phase JP Nagar": {
+      "median_price_per_sqft": 6875.0,
+      "median_price_lakh": 88.0,
+      "sample_count": 23.0
+    },
+    "6th block Koramangala": {
+      "median_price_per_sqft": 13333.333333333334,
+      "median_price_lakh": 300.0,
+      "sample_count": 5.0
+    },
+    "7th Block Jayanagar": {
+      "median_price_per_sqft": 17000.0,
+      "median_price_lakh": 408.0,
+      "sample_count": 5.0
+    },
+    "7th Phase JP Nagar": {
+      "median_price_per_sqft": 6666.666666666667,
+      "median_price_lakh": 80.0,
+      "sample_count": 149.0
+    },
+    "8th Phase JP Nagar": {
+      "median_price_per_sqft": 4499.4499449945,
+      "median_price_lakh": 55.0,
+      "sample_count": 57.0
+    },
+    "8th block Koramangala": {
+      "median_price_per_sqft": 14166.666666666666,
+      "median_price_lakh": 233.0,
+      "sample_count": 7.0
+    },
+    "9th Block Jayanagar": {
+      "median_price_per_sqft": 21428.571428571428,
+      "median_price_lakh": 240.0,
+      "sample_count": 5.0
+    },
+    "9th Phase JP Nagar": {
+      "median_price_per_sqft": 4943.820224719101,
+      "median_price_lakh": 69.0,
+      "sample_count": 43.0
+    },
+    "A Narayanapura": {
+      "median_price_per_sqft": 9565.217391304348,
+      "median_price_lakh": 110.0,
+      "sample_count": 5.0
+    },
+    "AECS Layout": {
+      "median_price_per_sqft": 4839.874277947672,
+      "median_price_lakh": 62.0,
+      "sample_count": 12.0
+    },
+    "AGS Layout": {
+      "median_price_per_sqft": 4500.46511627907,
+      "median_price_lakh": 59.6,
+      "sample_count": 7.0
+    },
+    "Abbaiah Reddy Layout": {
+      "median_price_per_sqft": 3499.5454545454545,
+      "median_price_lakh": 39.75,
+      "sample_count": 6.0
+    },
+    "Abbigere": {
+      "median_price_per_sqft": 4093.0817610062895,
+      "median_price_lakh": 40.595,
+      "sample_count": 24.0
+    },
+    "Akshaya Nagar": {
+      "median_price_per_sqft": 5144.436133647787,
+      "median_price_lakh": 80.0,
+      "sample_count": 62.0
+    },
+    "Akshaya Vana": {
+      "median_price_per_sqft": 4069.4444444444443,
+      "median_price_lakh": 53.5,
+      "sample_count": 8.0
+    },
+    "Akshayanagara East": {
+      "median_price_per_sqft": 5353.464926359773,
+      "median_price_lakh": 68.81,
+      "sample_count": 8.0
+    },
+    "Akshya Nagar": {
+      "median_price_per_sqft": 5416.666666666667,
+      "median_price_lakh": 75.0,
+      "sample_count": 5.0
+    },
+    "Ambalipura": {
+      "median_price_per_sqft": 5930.930930930931,
+      "median_price_lakh": 80.0,
+      "sample_count": 27.0
+    },
+    "Ambedkar Colony": {
+      "median_price_per_sqft": 9706.083390293916,
+      "median_price_lakh": 145.0,
+      "sample_count": 7.0
+    },
+    "Ambedkar Nagar": {
+      "median_price_per_sqft": 6587.473002159827,
+      "median_price_lakh": 125.0,
+      "sample_count": 31.0
+    },
+    "Amblipura": {
+      "median_price_per_sqft": 6647.179691124809,
+      "median_price_lakh": 124.0,
+      "sample_count": 6.0
+    },
+    "Amruthahalli": {
+      "median_price_per_sqft": 5138.89189013981,
+      "median_price_lakh": 61.5,
+      "sample_count": 24.0
+    },
+    "Amruthnagar": {
+      "median_price_per_sqft": 5000.0,
+      "median_price_lakh": 60.0,
+      "sample_count": 5.0
+    },
+    "Anand Nagar": {
+      "median_price_per_sqft": 9446.617670301881,
+      "median_price_lakh": 157.5,
+      "sample_count": 6.0
+    },
+    "Anandapura": {
+      "median_price_per_sqft": 4833.333333333333,
+      "median_price_lakh": 55.0,
+      "sample_count": 27.0
+    },
+    "Ananth Nagar": {
+      "median_price_per_sqft": 2916.818181818182,
+      "median_price_lakh": 26.925,
+      "sample_count": 30.0
+    },
+    "Anekal": {
+      "median_price_per_sqft": 3374.9424758398527,
+      "median_price_lakh": 36.0,
+      "sample_count": 36.0
+    },
+    "Anjanapura": {
+      "median_price_per_sqft": 3582.9932868237465,
+      "median_price_lakh": 42.5,
+      "sample_count": 16.0
+    },
+    "Ardendale": {
+      "median_price_per_sqft": 5714.285714285715,
+      "median_price_lakh": 100.0,
+      "sample_count": 24.0
+    },
+    "Arekere": {
+      "median_price_per_sqft": 5239.852398523985,
+      "median_price_lakh": 95.0,
+      "sample_count": 17.0
+    },
+    "Ashirvad Colony": {
+      "median_price_per_sqft": 4848.115299334811,
+      "median_price_lakh": 55.0,
+      "sample_count": 6.0
+    },
+    "Ashwath Nagar": {
+      "median_price_per_sqft": 5327.868852459016,
+      "median_price_lakh": 84.0,
+      "sample_count": 7.0
+    },
+    "Ashwathnagar": {
+      "median_price_per_sqft": 6250.0,
+      "median_price_lakh": 57.5,
+      "sample_count": 6.0
+    },
+    "Attibele": {
+      "median_price_per_sqft": 2970.5882352941176,
+      "median_price_lakh": 25.0,
+      "sample_count": 42.0
+    },
+    "Attur Layout": {
+      "median_price_per_sqft": 5416.666666666667,
+      "median_price_lakh": 150.0,
+      "sample_count": 5.0
+    },
+    "Austin Town": {
+      "median_price_per_sqft": 4800.0,
+      "median_price_lakh": 60.0,
+      "sample_count": 7.0
+    },
+    "Avalahalli": {
+      "median_price_per_sqft": 5281.173594132029,
+      "median_price_lakh": 108.0,
+      "sample_count": 5.0
+    },
+    "B Narayanapura": {
+      "median_price_per_sqft": 4803.921568627451,
+      "median_price_lakh": 60.0,
+      "sample_count": 9.0
+    },
+    "BEML Layout": {
+      "median_price_per_sqft": 5443.886097152429,
+      "median_price_lakh": 85.0,
+      "sample_count": 13.0
+    },
+    "BTM 1st Stage": {
+      "median_price_per_sqft": 14166.666666666668,
+      "median_price_lakh": 115.5,
+      "sample_count": 10.0
+    },
+    "BTM 2nd Stage": {
+      "median_price_per_sqft": 6428.571428571428,
+      "median_price_lakh": 80.0,
+      "sample_count": 29.0
+    },
+    "BTM Layout": {
+      "median_price_per_sqft": 5478.260869565217,
+      "median_price_lakh": 78.0,
+      "sample_count": 17.0
+    },
+    "Babusapalaya": {
+      "median_price_per_sqft": 3861.3793103448274,
+      "median_price_lakh": 45.9,
+      "sample_count": 25.0
+    },
+    "Badavala Nagar": {
+      "median_price_per_sqft": 6328.647925033467,
+      "median_price_lakh": 94.55,
+      "sample_count": 12.0
+    },
+    "Bagalakunte": {
+      "median_price_per_sqft": 8927.966101694916,
+      "median_price_lakh": 116.5,
+      "sample_count": 6.0
+    },
+    "Bagalur": {
+      "median_price_per_sqft": 5625.0,
+      "median_price_lakh": 57.0,
+      "sample_count": 5.0
+    },
+    "Balagere": {
+      "median_price_per_sqft": 6156.901688182721,
+      "median_price_lakh": 65.0,
+      "sample_count": 45.0
+    },
+    "Banagiri Nagar": {
+      "median_price_per_sqft": 8000.0,
+      "median_price_lakh": 122.0,
+      "sample_count": 9.0
+    },
+    "Banashankari": {
+      "median_price_per_sqft": 5908.521303258145,
+      "median_price_lakh": 79.0,
+      "sample_count": 74.0
+    },
+    "Banashankari Stage II": {
+      "median_price_per_sqft": 11452.380952380952,
+      "median_price_lakh": 137.5,
+      "sample_count": 16.0
+    },
+    "Banashankari Stage III": {
+      "median_price_per_sqft": 6666.666666666667,
+      "median_price_lakh": 111.0,
+      "sample_count": 27.0
+    },
+    "Banashankari Stage V": {
+      "median_price_per_sqft": 3591.137194393931,
+      "median_price_lakh": 49.0,
+      "sample_count": 12.0
+    },
+    "Banashankari Stage VI": {
+      "median_price_per_sqft": 5088.114063987115,
+      "median_price_lakh": 90.0,
+      "sample_count": 16.0
+    },
+    "Banaswadi": {
+      "median_price_per_sqft": 5347.985347985348,
+      "median_price_lakh": 73.0,
+      "sample_count": 17.0
+    },
+    "Banjara Layout": {
+      "median_price_per_sqft": 7901.726427622842,
+      "median_price_lakh": 70.0,
+      "sample_count": 11.0
+    },
+    "Bank Of Baroda Colony": {
+      "median_price_per_sqft": 13703.703703703704,
+      "median_price_lakh": 185.0,
+      "sample_count": 7.0
+    },
+    "Bannerghatta": {
+      "median_price_per_sqft": 6447.957391353618,
+      "median_price_lakh": 80.1,
+      "sample_count": 18.0
+    },
+    "Bannerghatta Road": {
+      "median_price_per_sqft": 5364.552291755357,
+      "median_price_lakh": 72.5,
+      "sample_count": 152.0
+    },
+    "Basapura": {
+      "median_price_per_sqft": 4772.727272727272,
+      "median_price_lakh": 60.0,
+      "sample_count": 10.0
+    },
+    "Basavanagara": {
+      "median_price_per_sqft": 3333.3333333333335,
+      "median_price_lakh": 80.0,
+      "sample_count": 5.0
+    },
+    "Basavanapura": {
+      "median_price_per_sqft": 4592.4408014571945,
+      "median_price_lakh": 65.0,
+      "sample_count": 8.0
+    },
+    "Basavangudi": {
+      "median_price_per_sqft": 9904.761904761905,
+      "median_price_lakh": 150.0,
+      "sample_count": 32.0
+    },
+    "Basaveshwara Nagar": {
+      "median_price_per_sqft": 12916.666666666666,
+      "median_price_lakh": 150.0,
+      "sample_count": 21.0
+    },
+    "Basaveshwara Nagar Yelahanka": {
+      "median_price_per_sqft": 5059.523809523809,
+      "median_price_lakh": 95.0,
+      "sample_count": 7.0
+    },
+    "Battarahalli": {
+      "median_price_per_sqft": 5028.12421513401,
+      "median_price_lakh": 75.0,
+      "sample_count": 24.0
+    },
+    "Begur": {
+      "median_price_per_sqft": 4798.920147021413,
+      "median_price_lakh": 64.0,
+      "sample_count": 16.0
+    },
+    "Begur Road": {
+      "median_price_per_sqft": 3700.15479876161,
+      "median_price_lakh": 47.025,
+      "sample_count": 84.0
+    },
+    "Belathur": {
+      "median_price_per_sqft": 3619.0476190476193,
+      "median_price_lakh": 39.0,
+      "sample_count": 5.0
+    },
+    "Bellandur": {
+      "median_price_per_sqft": 5419.485964484396,
+      "median_price_lakh": 74.5,
+      "sample_count": 96.0
+    },
+    "Bellari Road": {
+      "median_price_per_sqft": 4146.341463414634,
+      "median_price_lakh": 45.0,
+      "sample_count": 5.0
+    },
+    "Benson Town": {
+      "median_price_per_sqft": 14573.991031390135,
+      "median_price_lakh": 280.0,
+      "sample_count": 15.0
+    },
+    "Bharathi Nagar": {
+      "median_price_per_sqft": 4946.162492921678,
+      "median_price_lakh": 68.5,
+      "sample_count": 12.0
+    },
+    "Bhoganhalli": {
+      "median_price_per_sqft": 5396.514785117305,
+      "median_price_lakh": 90.2,
+      "sample_count": 50.0
+    },
+    "Bhuvaneshwari Nagar": {
+      "median_price_per_sqft": 5265.909090909091,
+      "median_price_lakh": 53.5,
+      "sample_count": 6.0
+    },
+    "Bileshivale": {
+      "median_price_per_sqft": 4606.481481481482,
+      "median_price_lakh": 210.0,
+      "sample_count": 6.0
+    },
+    "Billekahalli": {
+      "median_price_per_sqft": 5836.25730994152,
+      "median_price_lakh": 76.5,
+      "sample_count": 18.0
+    },
+    "Binny Pete": {
+      "median_price_per_sqft": 8620.689655172413,
+      "median_price_lakh": 150.0,
+      "sample_count": 21.0
+    },
+    "Bisuvanahalli": {
+      "median_price_per_sqft": 3906.9767441860463,
+      "median_price_lakh": 41.0,
+      "sample_count": 51.0
+    },
+    "Bommanahalli": {
+      "median_price_per_sqft": 4568.9655172413795,
+      "median_price_lakh": 54.0,
+      "sample_count": 35.0
+    },
+    "Bommasandra": {
+      "median_price_per_sqft": 3917.4603174603176,
+      "median_price_lakh": 41.0,
+      "sample_count": 37.0
+    },
+    "Bommasandra Industrial Area": {
+      "median_price_per_sqft": 2888.0366972477063,
+      "median_price_lakh": 36.53,
+      "sample_count": 26.0
+    },
+    "Bommenahalli": {
+      "median_price_per_sqft": 8331.13185393918,
+      "median_price_lakh": 135.0,
+      "sample_count": 12.0
+    },
+    "Brookefield": {
+      "median_price_per_sqft": 5985.915492957746,
+      "median_price_lakh": 85.0,
+      "sample_count": 47.0
+    },
+    "Budigere": {
+      "median_price_per_sqft": 4993.397166006647,
+      "median_price_lakh": 61.0,
+      "sample_count": 54.0
+    },
+    "Byadarahalli": {
+      "median_price_per_sqft": 11935.136970794658,
+      "median_price_lakh": 397.5,
+      "sample_count": 8.0
+    },
+    "Byagadadhenahalli": {
+      "median_price_per_sqft": 3709.6774193548385,
+      "median_price_lakh": 23.0,
+      "sample_count": 5.0
+    },
+    "Byatarayanapura": {
+      "median_price_per_sqft": 6792.452830188679,
+      "median_price_lakh": 75.0,
+      "sample_count": 7.0
+    },
+    "Byrasandra": {
+      "median_price_per_sqft": 5000.0,
+      "median_price_lakh": 56.0,
+      "sample_count": 7.0
+    },
+    "Byrathi Village": {
+      "median_price_per_sqft": 6785.320088300221,
+      "median_price_lakh": 75.0,
+      "sample_count": 6.0
+    },
+    "CV Raman Nagar": {
+      "median_price_per_sqft": 5140.186915887851,
+      "median_price_lakh": 61.0,
+      "sample_count": 43.0
+    },
+    "Cambridge Layout": {
+      "median_price_per_sqft": 11314.102564102564,
+      "median_price_lakh": 245.0,
+      "sample_count": 8.0
+    },
+    "Canara Bank Colony": {
+      "median_price_per_sqft": 4500.0,
+      "median_price_lakh": 52.0,
+      "sample_count": 7.0
+    },
+    "Chamrajpet": {
+      "median_price_per_sqft": 8947.368421052632,
+      "median_price_lakh": 162.0,
+      "sample_count": 15.0
+    },
+    "Chandapura": {
+      "median_price_per_sqft": 2700.0,
+      "median_price_lakh": 28.235,
+      "sample_count": 100.0
+    },
+    "Chandra Layout": {
+      "median_price_per_sqft": 14166.666666666666,
+      "median_price_lakh": 130.0,
+      "sample_count": 9.0
+    },
+    "Channasandra": {
+      "median_price_per_sqft": 3597.0801820493944,
+      "median_price_lakh": 40.235,
+      "sample_count": 38.0
+    },
+    "Channasandra Layout": {
+      "median_price_per_sqft": 3583.061889250814,
+      "median_price_lakh": 52.0,
+      "sample_count": 7.0
+    },
+    "Chelekare": {
+      "median_price_per_sqft": 4746.0,
+      "median_price_lakh": 60.0,
+      "sample_count": 6.0
+    },
+    "Chennammana Kere": {
+      "median_price_per_sqft": 5100.436681222707,
+      "median_price_lakh": 58.4,
+      "sample_count": 9.0
+    },
+    "Chikka Tirupathi": {
+      "median_price_per_sqft": 4285.714285714285,
+      "median_price_lakh": 120.0,
+      "sample_count": 17.0
+    },
+    "Chikkabanavar": {
+      "median_price_per_sqft": 4041.6666666666665,
+      "median_price_lakh": 70.0,
+      "sample_count": 13.0
+    },
+    "Chikkadunnasandra": {
+      "median_price_per_sqft": 3722.2619899785254,
+      "median_price_lakh": 50.0,
+      "sample_count": 5.0
+    },
+    "Chikkalasandra": {
+      "median_price_per_sqft": 4350.373654564721,
+      "median_price_lakh": 53.315,
+      "sample_count": 30.0
+    },
+    "Cholanayakanahalli": {
+      "median_price_per_sqft": 7307.692307692308,
+      "median_price_lakh": 95.0,
+      "sample_count": 7.0
+    },
+    "Choodasandra": {
+      "median_price_per_sqft": 4910.742159784306,
+      "median_price_lakh": 58.0,
+      "sample_count": 26.0
+    },
+    "Coconut Grove Layout": {
+      "median_price_per_sqft": 4270.109235352532,
+      "median_price_lakh": 48.0,
+      "sample_count": 5.0
+    },
+    "Cooke Town": {
+      "median_price_per_sqft": 10755.295429208472,
+      "median_price_lakh": 244.5,
+      "sample_count": 16.0
+    },
+    "Cottonpet": {
+      "median_price_per_sqft": 13903.192584963954,
+      "median_price_lakh": 200.0,
+      "sample_count": 5.0
+    },
+    "Cox Town": {
+      "median_price_per_sqft": 7846.242774566474,
+      "median_price_lakh": 130.0,
+      "sample_count": 12.0
+    },
+    "Cunningham Road": {
+      "median_price_per_sqft": 19479.24823805795,
+      "median_price_lakh": 800.0,
+      "sample_count": 13.0
+    },
+    "Dairy Circle": {
+      "median_price_per_sqft": 11904.98144549429,
+      "median_price_lakh": 355.0,
+      "sample_count": 10.0
+    },
+    "Dasanapura": {
+      "median_price_per_sqft": 5192.846930135065,
+      "median_price_lakh": 43.1,
+      "sample_count": 16.0
+    },
+    "Dasarahalli": {
+      "median_price_per_sqft": 5081.9672131147545,
+      "median_price_lakh": 70.0,
+      "sample_count": 17.0
+    },
+    "Defence Colony": {
+      "median_price_per_sqft": 13543.307086614173,
+      "median_price_lakh": 365.0,
+      "sample_count": 7.0
+    },
+    "Devanahalli": {
+      "median_price_per_sqft": 5032.258064516129,
+      "median_price_lakh": 65.0,
+      "sample_count": 43.0
+    },
+    "Devarabeesana Halli": {
+      "median_price_per_sqft": 8514.285714285714,
+      "median_price_lakh": 149.0,
+      "sample_count": 7.0
+    },
+    "Devarachikkanahalli": {
+      "median_price_per_sqft": 4398.826979472141,
+      "median_price_lakh": 58.0,
+      "sample_count": 17.0
+    },
+    "Devasthanagalu": {
+      "median_price_per_sqft": 4442.655701456641,
+      "median_price_lakh": 52.5,
+      "sample_count": 6.0
+    },
+    "Devi Nagar": {
+      "median_price_per_sqft": 5250.0,
+      "median_price_lakh": 68.0,
+      "sample_count": 5.0
+    },
+    "Doctors Layout": {
+      "median_price_per_sqft": 4078.9473684210525,
+      "median_price_lakh": 47.0,
+      "sample_count": 7.0
+    },
+    "Dodda Banaswadi": {
+      "median_price_per_sqft": 4174.358974358975,
+      "median_price_lakh": 69.0,
+      "sample_count": 6.0
+    },
+    "Dodda Nekkundi": {
+      "median_price_per_sqft": 4379.56204379562,
+      "median_price_lakh": 56.0,
+      "sample_count": 29.0
+    },
+    "Dodda Nekkundi Extension": {
+      "median_price_per_sqft": 5988.765575486443,
+      "median_price_lakh": 88.25,
+      "sample_count": 8.0
+    },
+    "Doddaballapur": {
+      "median_price_per_sqft": 7258.425208647295,
+      "median_price_lakh": 168.5,
+      "sample_count": 12.0
+    },
+    "Doddabanahalli": {
+      "median_price_per_sqft": 3750.0,
+      "median_price_lakh": 37.0,
+      "sample_count": 5.0
+    },
+    "Doddabommasandra": {
+      "median_price_per_sqft": 4603.174603174603,
+      "median_price_lakh": 90.0,
+      "sample_count": 7.0
+    },
+    "Doddakallasandra": {
+      "median_price_per_sqft": 3999.281475748194,
+      "median_price_lakh": 42.935,
+      "sample_count": 14.0
+    },
+    "Doddakammanahalli": {
+      "median_price_per_sqft": 4400.28388928318,
+      "median_price_lakh": 60.0,
+      "sample_count": 7.0
+    },
+    "Doddakannelli": {
+      "median_price_per_sqft": 5081.073637584201,
+      "median_price_lakh": 72.5,
+      "sample_count": 6.0
+    },
+    "Doddanakundi Industrial Area 2": {
+      "median_price_per_sqft": 4930.241327300151,
+      "median_price_lakh": 75.005,
+      "sample_count": 6.0
+    },
+    "Doddanekundi": {
+      "median_price_per_sqft": 6334.967584743958,
+      "median_price_lakh": 106.5,
+      "sample_count": 6.0
+    },
+    "Doddathoguru": {
+      "median_price_per_sqft": 3628.887129283041,
+      "median_price_lakh": 41.0,
+      "sample_count": 30.0
+    },
+    "Dodsworth Layout": {
+      "median_price_per_sqft": 6073.22088898951,
+      "median_price_lakh": 107.0,
+      "sample_count": 10.0
+    },
+    "Dollars Colony": {
+      "median_price_per_sqft": 11209.677419354839,
+      "median_price_lakh": 315.0,
+      "sample_count": 8.0
+    },
+    "Domlur": {
+      "median_price_per_sqft": 8214.285714285714,
+      "median_price_lakh": 140.0,
+      "sample_count": 22.0
+    },
+    "Dommasandra": {
+      "median_price_per_sqft": 3049.3707647628266,
+      "median_price_lakh": 40.0,
+      "sample_count": 13.0
+    },
+    "Doopanahalli": {
+      "median_price_per_sqft": 8844.444444444445,
+      "median_price_lakh": 150.0,
+      "sample_count": 5.0
+    },
+    "EPIP Zone": {
+      "median_price_per_sqft": 6696.428571428572,
+      "median_price_lakh": 125.0,
+      "sample_count": 23.0
+    },
+    "Ejipura": {
+      "median_price_per_sqft": 6521.739130434783,
+      "median_price_lakh": 95.0,
+      "sample_count": 9.0
+    },
+    "Electronic City": {
+      "median_price_per_sqft": 4497.388639694453,
+      "median_price_lakh": 45.95,
+      "sample_count": 304.0
+    },
+    "Electronic City Phase II": {
+      "median_price_per_sqft": 3000.0,
+      "median_price_lakh": 38.06,
+      "sample_count": 132.0
+    },
+    "Electronics City Phase 1": {
+      "median_price_per_sqft": 4780.37493150808,
+      "median_price_lakh": 53.5,
+      "sample_count": 88.0
+    },
+    "Frazer Town": {
+      "median_price_per_sqft": 9963.609898107716,
+      "median_price_lakh": 210.0,
+      "sample_count": 36.0
+    },
+    "GM Palaya": {
+      "median_price_per_sqft": 4509.567187198766,
+      "median_price_lakh": 62.0,
+      "sample_count": 12.0
+    },
+    "Ganga Nagar": {
+      "median_price_per_sqft": 6421.1045364891515,
+      "median_price_lakh": 65.0,
+      "sample_count": 10.0
+    },
+    "Garudachar Palya": {
+      "median_price_per_sqft": 4590.73756432247,
+      "median_price_lakh": 56.15,
+      "sample_count": 18.0
+    },
+    "Giri Nagar": {
+      "median_price_per_sqft": 16287.878787878788,
+      "median_price_lakh": 245.0,
+      "sample_count": 14.0
+    },
+    "Gollahalli": {
+      "median_price_per_sqft": 4372.3554301833565,
+      "median_price_lakh": 48.0,
+      "sample_count": 9.0
+    },
+    "Gollarapalya Hosahalli": {
+      "median_price_per_sqft": 4248.86191198786,
+      "median_price_lakh": 50.0,
+      "sample_count": 13.0
+    },
+    "Gopalapura": {
+      "median_price_per_sqft": 13486.07314638362,
+      "median_price_lakh": 286.5,
+      "sample_count": 6.0
+    },
+    "Gopalkrishna Nagar": {
+      "median_price_per_sqft": 5955.165207006369,
+      "median_price_lakh": 75.0,
+      "sample_count": 8.0
+    },
+    "Gottigere": {
+      "median_price_per_sqft": 4360.278745644599,
+      "median_price_lakh": 55.79,
+      "sample_count": 48.0
+    },
+    "Govindpura": {
+      "median_price_per_sqft": 4688.536953242836,
+      "median_price_lakh": 75.0,
+      "sample_count": 5.0
+    },
+    "Green Glen Layout": {
+      "median_price_per_sqft": 6591.957811470006,
+      "median_price_lakh": 115.0,
+      "sample_count": 39.0
+    },
+    "Green View Layout": {
+      "median_price_per_sqft": 4059.4059405940593,
+      "median_price_lakh": 42.0,
+      "sample_count": 7.0
+    },
+    "Gubbalala": {
+      "median_price_per_sqft": 5530.64710747163,
+      "median_price_lakh": 86.5,
+      "sample_count": 26.0
+    },
+    "Gunjur": {
+      "median_price_per_sqft": 4195.057783310502,
+      "median_price_lakh": 60.0,
+      "sample_count": 22.0
+    },
+    "Gunjur Palya": {
+      "median_price_per_sqft": 3654.7619047619046,
+      "median_price_lakh": 41.0,
+      "sample_count": 10.0
+    },
+    "HAL 2nd Stage": {
+      "median_price_per_sqft": 24166.666666666668,
+      "median_price_lakh": 260.0,
+      "sample_count": 11.0
+    },
+    "HBR Layout": {
+      "median_price_per_sqft": 7938.240798502808,
+      "median_price_lakh": 117.5,
+      "sample_count": 20.0
+    },
+    "HMT Layout": {
+      "median_price_per_sqft": 5248.868778280543,
+      "median_price_lakh": 80.0,
+      "sample_count": 5.0
+    },
+    "HOSUR MAIN ROAD": {
+      "median_price_per_sqft": 3825.136612021858,
+      "median_price_lakh": 56.0,
+      "sample_count": 7.0
+    },
+    "HRBR Layout": {
+      "median_price_per_sqft": 6923.076923076923,
+      "median_price_lakh": 98.0,
+      "sample_count": 19.0
+    },
+    "HSR Layout": {
+      "median_price_per_sqft": 4987.5311720698255,
+      "median_price_lakh": 65.0,
+      "sample_count": 53.0
+    },
+    "Haralur Road": {
+      "median_price_per_sqft": 5229.1381840216745,
+      "median_price_lakh": 66.19,
+      "sample_count": 142.0
+    },
+    "Harlur": {
+      "median_price_per_sqft": 6599.832915622389,
+      "median_price_lakh": 95.1,
+      "sample_count": 79.0
+    },
+    "Hebbal": {
+      "median_price_per_sqft": 7112.462006079028,
+      "median_price_lakh": 113.0,
+      "sample_count": 177.0
+    },
+    "Hebbal Kempapura": {
+      "median_price_per_sqft": 9174.20814479638,
+      "median_price_lakh": 167.5,
+      "sample_count": 34.0
+    },
+    "Hegde Nagar": {
+      "median_price_per_sqft": 6659.447753113156,
+      "median_price_lakh": 122.0,
+      "sample_count": 49.0
+    },
+    "Hennur": {
+      "median_price_per_sqft": 4581.673306772908,
+      "median_price_lakh": 57.0,
+      "sample_count": 55.0
+    },
+    "Hennur Bande": {
+      "median_price_per_sqft": 9257.564217960258,
+      "median_price_lakh": 114.0,
+      "sample_count": 6.0
+    },
+    "Hennur Gardens": {
+      "median_price_per_sqft": 7718.120805369127,
+      "median_price_lakh": 115.0,
+      "sample_count": 7.0
+    },
+    "Hennur Road": {
+      "median_price_per_sqft": 5896.415827174133,
+      "median_price_lakh": 84.0,
+      "sample_count": 152.0
+    },
+    "Hessarghatta": {
+      "median_price_per_sqft": 4708.097928436911,
+      "median_price_lakh": 50.0,
+      "sample_count": 7.0
+    },
+    "Hiremath Layout": {
+      "median_price_per_sqft": 4912.2807017543855,
+      "median_price_lakh": 92.0,
+      "sample_count": 5.0
+    },
+    "Hongasandra": {
+      "median_price_per_sqft": 5218.670076726343,
+      "median_price_lakh": 47.0,
+      "sample_count": 8.0
+    },
+    "Hoodi": {
+      "median_price_per_sqft": 5709.491850431448,
+      "median_price_lakh": 81.03,
+      "sample_count": 88.0
+    },
+    "Hoodi Circle,": {
+      "median_price_per_sqft": 4849.600982197668,
+      "median_price_lakh": 59.9,
+      "sample_count": 7.0
+    },
+    "Horamavu Agara": {
+      "median_price_per_sqft": 4236.852306499548,
+      "median_price_lakh": 45.5,
+      "sample_count": 42.0
+    },
+    "Horamavu Banaswadi": {
+      "median_price_per_sqft": 4076.963845018783,
+      "median_price_lakh": 51.55,
+      "sample_count": 28.0
+    },
+    "Hormavu": {
+      "median_price_per_sqft": 4786.935415787252,
+      "median_price_lakh": 57.0,
+      "sample_count": 74.0
+    },
+    "Hosa Road": {
+      "median_price_per_sqft": 5072.014225181598,
+      "median_price_lakh": 69.1,
+      "sample_count": 72.0
+    },
+    "Hosahalli Extension": {
+      "median_price_per_sqft": 12000.0,
+      "median_price_lakh": 120.0,
+      "sample_count": 5.0
+    },
+    "Hosakerehalli": {
+      "median_price_per_sqft": 9513.520540821632,
+      "median_price_lakh": 150.0,
+      "sample_count": 36.0
+    },
+    "Hoskote": {
+      "median_price_per_sqft": 3703.703703703704,
+      "median_price_lakh": 45.0,
+      "sample_count": 21.0
+    },
+    "Hosur Road": {
+      "median_price_per_sqft": 6048.462741010943,
+      "median_price_lakh": 98.0,
+      "sample_count": 46.0
+    },
+    "Hoysalanagar": {
+      "median_price_per_sqft": 4410.830401876133,
+      "median_price_lakh": 53.0,
+      "sample_count": 8.0
+    },
+    "Hulimavu": {
+      "median_price_per_sqft": 5513.427060986822,
+      "median_price_lakh": 71.75,
+      "sample_count": 52.0
+    },
+    "Huskur": {
+      "median_price_per_sqft": 2887.821701199564,
+      "median_price_lakh": 34.435,
+      "sample_count": 8.0
+    },
+    "ISRO Layout": {
+      "median_price_per_sqft": 6000.0,
+      "median_price_lakh": 87.0,
+      "sample_count": 13.0
+    },
+    "ITI Layout": {
+      "median_price_per_sqft": 6001.797863258918,
+      "median_price_lakh": 83.63499999999999,
+      "sample_count": 6.0
+    },
+    "ITPL": {
+      "median_price_per_sqft": 4676.666666666667,
+      "median_price_lakh": 56.12,
+      "sample_count": 12.0
+    },
+    "Iblur Village": {
+      "median_price_per_sqft": 7264.296754250387,
+      "median_price_lakh": 220.0,
+      "sample_count": 25.0
+    },
+    "Indira Nagar": {
+      "median_price_per_sqft": 11689.467312348668,
+      "median_price_lakh": 195.5,
+      "sample_count": 44.0
+    },
+    "Ittamadu": {
+      "median_price_per_sqft": 5763.888888888889,
+      "median_price_lakh": 90.0,
+      "sample_count": 8.0
+    },
+    "JP Nagar": {
+      "median_price_per_sqft": 5862.9629629629635,
+      "median_price_lakh": 88.5,
+      "sample_count": 72.0
+    },
+    "Jakkasandra Extension": {
+      "median_price_per_sqft": 6000.0,
+      "median_price_lakh": 63.0,
+      "sample_count": 5.0
+    },
+    "Jakkur": {
+      "median_price_per_sqft": 6250.0,
+      "median_price_lakh": 100.0,
+      "sample_count": 71.0
+    },
+    "Jakkur Plantation": {
+      "median_price_per_sqft": 6399.069226294358,
+      "median_price_lakh": 115.0,
+      "sample_count": 9.0
+    },
+    "Jakkuru Layout": {
+      "median_price_per_sqft": 4500.0,
+      "median_price_lakh": 54.0,
+      "sample_count": 5.0
+    },
+    "Jalahalli": {
+      "median_price_per_sqft": 6635.173644401832,
+      "median_price_lakh": 89.375,
+      "sample_count": 52.0
+    },
+    "Jalahalli East": {
+      "median_price_per_sqft": 5148.514851485149,
+      "median_price_lakh": 52.0,
+      "sample_count": 14.0
+    },
+    "Jalahalli West": {
+      "median_price_per_sqft": 5145.245202558635,
+      "median_price_lakh": 43.5,
+      "sample_count": 8.0
+    },
+    "Jayanagar": {
+      "median_price_per_sqft": 12116.316639741519,
+      "median_price_lakh": 182.0,
+      "sample_count": 7.0
+    },
+    "Jeevan bima nagar": {
+      "median_price_per_sqft": 12703.252032520326,
+      "median_price_lakh": 125.0,
+      "sample_count": 7.0
+    },
+    "Jigani": {
+      "median_price_per_sqft": 5323.505323505324,
+      "median_price_lakh": 58.0,
+      "sample_count": 53.0
+    },
+    "Judicial Layout": {
+      "median_price_per_sqft": 9958.823529411766,
+      "median_price_lakh": 162.0,
+      "sample_count": 16.0
+    },
+    "KR Garden": {
+      "median_price_per_sqft": 6810.810810810811,
+      "median_price_lakh": 65.0,
+      "sample_count": 5.0
+    },
+    "KR Puram": {
+      "median_price_per_sqft": 4347.826086956522,
+      "median_price_lakh": 58.0,
+      "sample_count": 91.0
+    },
+    "KUDLU MAIN ROAD": {
+      "median_price_per_sqft": 3825.136612021858,
+      "median_price_lakh": 56.0,
+      "sample_count": 9.0
+    },
+    "Kacharakanahalli": {
+      "median_price_per_sqft": 4852.8207461328475,
+      "median_price_lakh": 60.0,
+      "sample_count": 6.0
+    },
+    "Kada Agrahara": {
+      "median_price_per_sqft": 3743.3155080213905,
+      "median_price_lakh": 40.0,
+      "sample_count": 5.0
+    },
+    "Kadabagere": {
+      "median_price_per_sqft": 2654.8672566371683,
+      "median_price_lakh": 15.0,
+      "sample_count": 5.0
+    },
+    "Kadubeesanahalli": {
+      "median_price_per_sqft": 5860.805860805861,
+      "median_price_lakh": 78.0,
+      "sample_count": 13.0
+    },
+    "Kadugodi": {
+      "median_price_per_sqft": 5190.191805009183,
+      "median_price_lakh": 80.0,
+      "sample_count": 42.0
+    },
+    "Kadugondanahalli": {
+      "median_price_per_sqft": 6000.0,
+      "median_price_lakh": 60.0,
+      "sample_count": 5.0
+    },
+    "Kaggadasapura": {
+      "median_price_per_sqft": 4246.303642264695,
+      "median_price_lakh": 55.0,
+      "sample_count": 64.0
+    },
+    "Kaggalipura": {
+      "median_price_per_sqft": 5263.1578947368425,
+      "median_price_lakh": 57.5,
+      "sample_count": 19.0
+    },
+    "Kaikondrahalli": {
+      "median_price_per_sqft": 6240.0,
+      "median_price_lakh": 78.0,
+      "sample_count": 17.0
+    },
+    "Kalena Agrahara": {
+      "median_price_per_sqft": 5000.0,
+      "median_price_lakh": 70.0,
+      "sample_count": 33.0
+    },
+    "Kalkere": {
+      "median_price_per_sqft": 4921.534437663469,
+      "median_price_lakh": 52.5,
+      "sample_count": 10.0
+    },
+    "Kallumantapa": {
+      "median_price_per_sqft": 5028.462998102466,
+      "median_price_lakh": 53.0,
+      "sample_count": 5.0
+    },
+    "Kalyan nagar": {
+      "median_price_per_sqft": 5425.709515859767,
+      "median_price_lakh": 75.0,
+      "sample_count": 19.0
+    },
+    "Kamakshipalya": {
+      "median_price_per_sqft": 8141.762452107279,
+      "median_price_lakh": 75.0,
+      "sample_count": 9.0
+    },
+    "Kambipura": {
+      "median_price_per_sqft": 4424.4470029457625,
+      "median_price_lakh": 45.0,
+      "sample_count": 24.0
+    },
+    "Kammanahalli": {
+      "median_price_per_sqft": 8428.57142857143,
+      "median_price_lakh": 85.0,
+      "sample_count": 17.0
+    },
+    "Kammasandra": {
+      "median_price_per_sqft": 3032.7868852459014,
+      "median_price_lakh": 33.0,
+      "sample_count": 29.0
+    },
+    "Kanaka Nagar": {
+      "median_price_per_sqft": 7144.03227277858,
+      "median_price_lakh": 94.5,
+      "sample_count": 8.0
+    },
+    "Kanakapura": {
+      "median_price_per_sqft": 4778.11517901353,
+      "median_price_lakh": 50.55,
+      "sample_count": 42.0
+    },
+    "Kanakpura Road": {
+      "median_price_per_sqft": 5003.6697247706425,
+      "median_price_lakh": 63.0,
+      "sample_count": 271.0
+    },
+    "Kannamangala": {
+      "median_price_per_sqft": 5822.945239028213,
+      "median_price_lakh": 77.0,
+      "sample_count": 18.0
+    },
+    "Karuna Nagar": {
+      "median_price_per_sqft": 7418.90694239291,
+      "median_price_lakh": 165.0,
+      "sample_count": 12.0
+    },
+    "Kasavanhalli": {
+      "median_price_per_sqft": 5672.727272727273,
+      "median_price_lakh": 82.0,
+      "sample_count": 79.0
+    },
+    "Kasturi Nagar": {
+      "median_price_per_sqft": 6088.619440498484,
+      "median_price_lakh": 90.25,
+      "sample_count": 16.0
+    },
+    "Kathriguppe": {
+      "median_price_per_sqft": 5899.615384615385,
+      "median_price_lakh": 77.495,
+      "sample_count": 22.0
+    },
+    "Kattigenahalli": {
+      "median_price_per_sqft": 5148.809523809524,
+      "median_price_lakh": 120.0,
+      "sample_count": 8.0
+    },
+    "Kaval Byrasandra": {
+      "median_price_per_sqft": 5091.39248919907,
+      "median_price_lakh": 52.0,
+      "sample_count": 22.0
+    },
+    "Kaverappa Layout": {
+      "median_price_per_sqft": 5533.596837944664,
+      "median_price_lakh": 70.0,
+      "sample_count": 9.0
+    },
+    "Kenchenahalli": {
+      "median_price_per_sqft": 5304.008152173913,
+      "median_price_lakh": 59.0,
+      "sample_count": 16.0
+    },
+    "Kengeri": {
+      "median_price_per_sqft": 4269.972451790633,
+      "median_price_lakh": 40.6,
+      "sample_count": 73.0
+    },
+    "Kengeri Satellite Town": {
+      "median_price_per_sqft": 4204.967402098355,
+      "median_price_lakh": 42.5,
+      "sample_count": 40.0
+    },
+    "Kereguddadahalli": {
+      "median_price_per_sqft": 3312.517841849843,
+      "median_price_lakh": 33.5,
+      "sample_count": 16.0
+    },
+    "Keshava Nagar": {
+      "median_price_per_sqft": 8239.947264337508,
+      "median_price_lakh": 155.0,
+      "sample_count": 7.0
+    },
+    "Kodbisanhalli": {
+      "median_price_per_sqft": 5830.0395256917,
+      "median_price_lakh": 66.0,
+      "sample_count": 8.0
+    },
+    "Kodichikkanahalli": {
+      "median_price_per_sqft": 4629.62962962963,
+      "median_price_lakh": 57.0,
+      "sample_count": 27.0
+    },
+    "Kodigehaali": {
+      "median_price_per_sqft": 5000.0,
+      "median_price_lakh": 60.0,
+      "sample_count": 13.0
+    },
+    "Kodigehalli": {
+      "median_price_per_sqft": 8241.758241758242,
+      "median_price_lakh": 85.0,
+      "sample_count": 11.0
+    },
+    "Kodihalli": {
+      "median_price_per_sqft": 10478.573662808883,
+      "median_price_lakh": 270.0,
+      "sample_count": 15.0
+    },
+    "Kogilu": {
+      "median_price_per_sqft": 4444.110576923077,
+      "median_price_lakh": 53.33,
+      "sample_count": 25.0
+    },
+    "Konanakunte": {
+      "median_price_per_sqft": 7989.967753493372,
+      "median_price_lakh": 150.0,
+      "sample_count": 13.0
+    },
+    "Koramangala": {
+      "median_price_per_sqft": 9178.84896644223,
+      "median_price_lakh": 150.0,
+      "sample_count": 72.0
+    },
+    "Kothannur": {
+      "median_price_per_sqft": 3999.2292809456985,
+      "median_price_lakh": 46.4,
+      "sample_count": 26.0
+    },
+    "Kothanur": {
+      "median_price_per_sqft": 4933.123591684027,
+      "median_price_lakh": 71.0,
+      "sample_count": 66.0
+    },
+    "Kudlu": {
+      "median_price_per_sqft": 4307.692307692308,
+      "median_price_lakh": 52.0,
+      "sample_count": 29.0
+    },
+    "Kudlu Gate": {
+      "median_price_per_sqft": 5417.754569190601,
+      "median_price_lakh": 79.54,
+      "sample_count": 39.0
+    },
+    "Kumara Park": {
+      "median_price_per_sqft": 18824.11067193676,
+      "median_price_lakh": 300.0,
+      "sample_count": 6.0
+    },
+    "Kumaraswami Layout": {
+      "median_price_per_sqft": 8063.235294117647,
+      "median_price_lakh": 92.5,
+      "sample_count": 30.0
+    },
+    "Kundalahalli": {
+      "median_price_per_sqft": 7444.523979957051,
+      "median_price_lakh": 105.0,
+      "sample_count": 47.0
+    },
+    "Kundalahalli Colony": {
+      "median_price_per_sqft": 5390.625,
+      "median_price_lakh": 95.0,
+      "sample_count": 7.0
+    },
+    "Kurubarahalli": {
+      "median_price_per_sqft": 6500.0,
+      "median_price_lakh": 69.0,
+      "sample_count": 5.0
+    },
+    "LB Shastri Nagar": {
+      "median_price_per_sqft": 5236.486486486487,
+      "median_price_lakh": 62.0,
+      "sample_count": 11.0
+    },
+    "Laggere": {
+      "median_price_per_sqft": 6995.967741935484,
+      "median_price_lakh": 117.5,
+      "sample_count": 12.0
+    },
+    "Lakshminarayana Pura": {
+      "median_price_per_sqft": 6482.591691973241,
+      "median_price_lakh": 75.0,
+      "sample_count": 36.0
+    },
+    "Lavelle Road": {
+      "median_price_per_sqft": 15633.142261594581,
+      "median_price_lakh": 300.0,
+      "sample_count": 5.0
+    },
+    "Lingadheeranahalli": {
+      "median_price_per_sqft": 6535.9477124183,
+      "median_price_lakh": 113.0,
+      "sample_count": 23.0
+    },
+    "Lingarajapuram": {
+      "median_price_per_sqft": 10277.777777777777,
+      "median_price_lakh": 60.0,
+      "sample_count": 9.0
+    },
+    "MS Pallya": {
+      "median_price_per_sqft": 6770.356396267782,
+      "median_price_lakh": 100.0,
+      "sample_count": 8.0
+    },
+    "Madiwala": {
+      "median_price_per_sqft": 3862.6609442060085,
+      "median_price_lakh": 45.0,
+      "sample_count": 7.0
+    },
+    "Magadi Road": {
+      "median_price_per_sqft": 5159.332321699545,
+      "median_price_lakh": 55.38,
+      "sample_count": 25.0
+    },
+    "Mahadevpura": {
+      "median_price_per_sqft": 4694.7194719471945,
+      "median_price_lakh": 64.0,
+      "sample_count": 31.0
+    },
+    "Mahalakshmi Layout": {
+      "median_price_per_sqft": 13333.333333333334,
+      "median_price_lakh": 160.0,
+      "sample_count": 13.0
+    },
+    "Mahalakshmi Puram": {
+      "median_price_per_sqft": 13433.333333333334,
+      "median_price_lakh": 229.0,
+      "sample_count": 8.0
+    },
+    "Maithri Layout": {
+      "median_price_per_sqft": 3560.8308605341244,
+      "median_price_lakh": 60.0,
+      "sample_count": 5.0
+    },
+    "Mallasandra": {
+      "median_price_per_sqft": 5209.909909909909,
+      "median_price_lakh": 70.0,
+      "sample_count": 16.0
+    },
+    "Mallathahalli": {
+      "median_price_per_sqft": 4897.959183673469,
+      "median_price_lakh": 60.0,
+      "sample_count": 5.0
+    },
+    "Malleshpalya": {
+      "median_price_per_sqft": 4545.454545454545,
+      "median_price_lakh": 55.0,
+      "sample_count": 17.0
+    },
+    "Malleshwaram": {
+      "median_price_per_sqft": 12500.0,
+      "median_price_lakh": 261.0,
+      "sample_count": 58.0
+    },
+    "Manayata Tech Park": {
+      "median_price_per_sqft": 4324.675324675325,
+      "median_price_lakh": 47.5,
+      "sample_count": 8.0
+    },
+    "Maragondanahalli": {
+      "median_price_per_sqft": 4931.983757857636,
+      "median_price_lakh": 63.5,
+      "sample_count": 6.0
+    },
+    "Marathahalli": {
+      "median_price_per_sqft": 5500.0,
+      "median_price_lakh": 76.0,
+      "sample_count": 175.0
+    },
+    "Margondanahalli": {
+      "median_price_per_sqft": 5484.126984126984,
+      "median_price_lakh": 62.5,
+      "sample_count": 26.0
+    },
+    "Marsur": {
+      "median_price_per_sqft": 5030.181086519115,
+      "median_price_lakh": 32.0,
+      "sample_count": 11.0
+    },
+    "Maruthi Nagar": {
+      "median_price_per_sqft": 4176.470588235294,
+      "median_price_lakh": 42.0,
+      "sample_count": 5.0
+    },
+    "Maruthi Sevanagar": {
+      "median_price_per_sqft": 5980.0,
+      "median_price_lakh": 115.0,
+      "sample_count": 7.0
+    },
+    "Mathikere": {
+      "median_price_per_sqft": 8666.666666666666,
+      "median_price_lakh": 120.0,
+      "sample_count": 9.0
+    },
+    "Medahalli": {
+      "median_price_per_sqft": 5857.142857142857,
+      "median_price_lakh": 70.0,
+      "sample_count": 9.0
+    },
+    "Meenakunte": {
+      "median_price_per_sqft": 6245.750924661165,
+      "median_price_lakh": 252.5,
+      "sample_count": 6.0
+    },
+    "Mico Layout": {
+      "median_price_per_sqft": 3729.714912280702,
+      "median_price_lakh": 48.75,
+      "sample_count": 12.0
+    },
+    "Motappa Layout": {
+      "median_price_per_sqft": 4470.1492389408595,
+      "median_price_lakh": 54.25,
+      "sample_count": 6.0
+    },
+    "Munivenkatppa Layout": {
+      "median_price_per_sqft": 10322.58064516129,
+      "median_price_lakh": 225.0,
+      "sample_count": 5.0
+    },
+    "Munnekollal": {
+      "median_price_per_sqft": 4889.320388349514,
+      "median_price_lakh": 68.0,
+      "sample_count": 23.0
+    },
+    "Murugeshpalya": {
+      "median_price_per_sqft": 5053.725739413729,
+      "median_price_lakh": 78.0,
+      "sample_count": 14.0
+    },
+    "Mysore Road": {
+      "median_price_per_sqft": 5018.019665617401,
+      "median_price_lakh": 64.155,
+      "sample_count": 48.0
+    },
+    "NGR Layout": {
+      "median_price_per_sqft": 4504.901484911077,
+      "median_price_lakh": 46.0,
+      "sample_count": 14.0
+    },
+    "NRI Layout": {
+      "median_price_per_sqft": 5204.166666666666,
+      "median_price_lakh": 85.0,
+      "sample_count": 14.0
+    },
+    "Nagadevanahalli": {
+      "median_price_per_sqft": 5433.467741935484,
+      "median_price_lakh": 75.0,
+      "sample_count": 10.0
+    },
+    "Naganathapura": {
+      "median_price_per_sqft": 5205.36134252484,
+      "median_price_lakh": 65.0,
+      "sample_count": 10.0
+    },
+    "Nagappa Reddy Layout": {
+      "median_price_per_sqft": 4357.978977544195,
+      "median_price_lakh": 62.5,
+      "sample_count": 10.0
+    },
+    "Nagaraja Garden": {
+      "median_price_per_sqft": 5500.000000000001,
+      "median_price_lakh": 78.65,
+      "sample_count": 5.0
+    },
+    "Nagarbhavi": {
+      "median_price_per_sqft": 7619.047619047619,
+      "median_price_lakh": 90.0,
+      "sample_count": 63.0
+    },
+    "Nagasandra": {
+      "median_price_per_sqft": 6247.619047619048,
+      "median_price_lakh": 120.0,
+      "sample_count": 12.0
+    },
+    "Nagashetty Halli": {
+      "median_price_per_sqft": 5333.333333333333,
+      "median_price_lakh": 93.0,
+      "sample_count": 5.0
+    },
+    "Nagavara": {
+      "median_price_per_sqft": 5008.01282051282,
+      "median_price_lakh": 58.56,
+      "sample_count": 17.0
+    },
+    "Nagavarapalya": {
+      "median_price_per_sqft": 7446.808510638298,
+      "median_price_lakh": 57.0,
+      "sample_count": 15.0
+    },
+    "Nagawara Junction": {
+      "median_price_per_sqft": 7386.729594669629,
+      "median_price_lakh": 125.5,
+      "sample_count": 6.0
+    },
+    "Nagondanahalli": {
+      "median_price_per_sqft": 4021.9378427787933,
+      "median_price_lakh": 47.0,
+      "sample_count": 5.0
+    },
+    "Nallurhalli": {
+      "median_price_per_sqft": 5505.92885375494,
+      "median_price_lakh": 66.5,
+      "sample_count": 8.0
+    },
+    "Narayanapura": {
+      "median_price_per_sqft": 5727.619855748833,
+      "median_price_lakh": 89.04,
+      "sample_count": 11.0
+    },
+    "Nayandanahalli": {
+      "median_price_per_sqft": 5690.428897226513,
+      "median_price_lakh": 86.0,
+      "sample_count": 6.0
+    },
+    "Neeladri Nagar": {
+      "median_price_per_sqft": 4000.0,
+      "median_price_lakh": 38.0,
+      "sample_count": 13.0
+    },
+    "Nehru Nagar": {
+      "median_price_per_sqft": 4964.5390070921985,
+      "median_price_lakh": 81.0,
+      "sample_count": 11.0
+    },
+    "Nelamangala": {
+      "median_price_per_sqft": 3653.846153846154,
+      "median_price_lakh": 40.0,
+      "sample_count": 7.0
+    },
+    "New Gurappana Palya": {
+      "median_price_per_sqft": 6500.0,
+      "median_price_lakh": 106.0,
+      "sample_count": 5.0
+    },
+    "New Thippasandra": {
+      "median_price_per_sqft": 10775.31379748962,
+      "median_price_lakh": 107.5,
+      "sample_count": 6.0
+    },
+    "OMBR Layout": {
+      "median_price_per_sqft": 7596.56652360515,
+      "median_price_lakh": 93.0,
+      "sample_count": 19.0
+    },
+    "Off Sarjapur Road,": {
+      "median_price_per_sqft": 5007.704160246533,
+      "median_price_lakh": 76.0,
+      "sample_count": 5.0
+    },
+    "Old Airport Road": {
+      "median_price_per_sqft": 7397.769516728625,
+      "median_price_lakh": 194.0,
+      "sample_count": 33.0
+    },
+    "Old Madras Road": {
+      "median_price_per_sqft": 5717.131474103586,
+      "median_price_lakh": 95.0,
+      "sample_count": 71.0
+    },
+    "Other": {
+      "median_price_per_sqft": 5966.465041807507,
+      "median_price_lakh": 83.0,
+      "sample_count": 1508.0
+    },
+    "Outer Ring Road East": {
+      "median_price_per_sqft": 6739.176405119644,
+      "median_price_lakh": 103.5,
+      "sample_count": 8.0
+    },
+    "Padmanabhanagar": {
+      "median_price_per_sqft": 5754.545454545454,
+      "median_price_lakh": 75.0,
+      "sample_count": 28.0
+    },
+    "Pai Layout": {
+      "median_price_per_sqft": 4304.635761589404,
+      "median_price_lakh": 58.0,
+      "sample_count": 19.0
+    },
+    "Panathur": {
+      "median_price_per_sqft": 6294.820717131474,
+      "median_price_lakh": 76.0,
+      "sample_count": 51.0
+    },
+    "Parappana Agrahara": {
+      "median_price_per_sqft": 3936.348408710218,
+      "median_price_lakh": 46.5,
+      "sample_count": 16.0
+    },
+    "Pattanagere": {
+      "median_price_per_sqft": 4117.64705882353,
+      "median_price_lakh": 65.0,
+      "sample_count": 5.0
+    },
+    "Pattandur Agrahara": {
+      "median_price_per_sqft": 5000.0,
+      "median_price_lakh": 62.35,
+      "sample_count": 11.0
+    },
+    "Peenya": {
+      "median_price_per_sqft": 5882.35294117647,
+      "median_price_lakh": 55.0,
+      "sample_count": 9.0
+    },
+    "Poorna Pragna Layout": {
+      "median_price_per_sqft": 3999.2673161617513,
+      "median_price_lakh": 50.79,
+      "sample_count": 20.0
+    },
+    "Prithvi Layout": {
+      "median_price_per_sqft": 6471.89349112426,
+      "median_price_lakh": 93.0,
+      "sample_count": 13.0
+    },
+    "R.T. Nagar": {
+      "median_price_per_sqft": 7762.8565196051695,
+      "median_price_lakh": 120.0,
+      "sample_count": 36.0
+    },
+    "RMV 2nd Stage": {
+      "median_price_per_sqft": 15659.955257270694,
+      "median_price_lakh": 260.0,
+      "sample_count": 7.0
+    },
+    "RMV Extension": {
+      "median_price_per_sqft": 5214.7239263803685,
+      "median_price_lakh": 85.0,
+      "sample_count": 5.0
+    },
+    "Rachenahalli": {
+      "median_price_per_sqft": 4960.952380952381,
+      "median_price_lakh": 53.105000000000004,
+      "sample_count": 58.0
+    },
+    "Raghuvanahalli": {
+      "median_price_per_sqft": 3951.3888888888887,
+      "median_price_lakh": 32.5,
+      "sample_count": 4.0
+    },
+    "Raja Rajeshwari Nagar": {
+      "median_price_per_sqft": 4225.352112676056,
+      "median_price_lakh": 53.56,
+      "sample_count": 171.0
+    },
+    "Rajaji Nagar": {
+      "median_price_per_sqft": 13963.414634146342,
+      "median_price_lakh": 250.0,
+      "sample_count": 107.0
+    },
+    "Rajiv Gandhi Nagar": {
+      "median_price_per_sqft": 5806.214924544391,
+      "median_price_lakh": 77.5,
+      "sample_count": 6.0
+    },
+    "Rajiv Nagar": {
+      "median_price_per_sqft": 6324.786324786325,
+      "median_price_lakh": 129.0,
+      "sample_count": 13.0
+    },
+    "Ramagondanahalli": {
+      "median_price_per_sqft": 4432.550540088438,
+      "median_price_lakh": 62.5,
+      "sample_count": 50.0
+    },
+    "Ramakrishnappa Layout": {
+      "median_price_per_sqft": 11612.90322580645,
+      "median_price_lakh": 315.0,
+      "sample_count": 7.0
+    },
+    "Ramamurthy Nagar": {
+      "median_price_per_sqft": 5583.00198807157,
+      "median_price_lakh": 65.5,
+      "sample_count": 72.0
+    },
+    "Ramanjaneyanagar": {
+      "median_price_per_sqft": 4350.40650406504,
+      "median_price_lakh": 53.51,
+      "sample_count": 5.0
+    },
+    "Rayasandra": {
+      "median_price_per_sqft": 4487.798813625546,
+      "median_price_lakh": 61.5,
+      "sample_count": 22.0
+    },
+    "Reliaable Tranquil Layout": {
+      "median_price_per_sqft": 5039.787798408488,
+      "median_price_lakh": 70.0,
+      "sample_count": 8.0
+    },
+    "Richards Town": {
+      "median_price_per_sqft": 10625.0,
+      "median_price_lakh": 160.0,
+      "sample_count": 7.0
+    },
+    "Richmond Town": {
+      "median_price_per_sqft": 10168.067226890757,
+      "median_price_lakh": 187.0,
+      "sample_count": 9.0
+    },
+    "Roopena Agrahara": {
+      "median_price_per_sqft": 5111.357229158277,
+      "median_price_lakh": 51.705,
+      "sample_count": 8.0
+    },
+    "Rustam Bagh Layout": {
+      "median_price_per_sqft": 6800.213675213676,
+      "median_price_lakh": 86.0,
+      "sample_count": 6.0
+    },
+    "Sadashiva Nagar": {
+      "median_price_per_sqft": 17689.70334078859,
+      "median_price_lakh": 655.0,
+      "sample_count": 10.0
+    },
+    "Sahakara Nagar": {
+      "median_price_per_sqft": 6333.333333333333,
+      "median_price_lakh": 75.0,
+      "sample_count": 39.0
+    },
+    "Samethanahalli": {
+      "median_price_per_sqft": 4568.210262828536,
+      "median_price_lakh": 47.5,
+      "sample_count": 6.0
+    },
+    "Sanjay nagar": {
+      "median_price_per_sqft": 6889.830508474576,
+      "median_price_lakh": 85.0,
+      "sample_count": 20.0
+    },
+    "Sarakki Nagar": {
+      "median_price_per_sqft": 11159.086717395046,
+      "median_price_lakh": 265.0,
+      "sample_count": 14.0
+    },
+    "Sarjapur": {
+      "median_price_per_sqft": 3782.2817161052453,
+      "median_price_lakh": 51.675,
+      "sample_count": 82.0
+    },
+    "Sarjapur  Road": {
+      "median_price_per_sqft": 5710.499217398468,
+      "median_price_lakh": 82.5,
+      "sample_count": 396.0
+    },
+    "Sarjapur Road,": {
+      "median_price_per_sqft": 5961.21123410484,
+      "median_price_lakh": 106.0,
+      "sample_count": 8.0
+    },
+    "Sarjapura - Attibele Road": {
+      "median_price_per_sqft": 3394.4954128440368,
+      "median_price_lakh": 48.0,
+      "sample_count": 17.0
+    },
+    "Sathya Sai Layout": {
+      "median_price_per_sqft": 9370.862855417216,
+      "median_price_lakh": 630.0,
+      "sample_count": 8.0
+    },
+    "Sector 1 HSR Layout": {
+      "median_price_per_sqft": 9104.324427805666,
+      "median_price_lakh": 152.5,
+      "sample_count": 10.0
+    },
+    "Sector 2 HSR Layout": {
+      "median_price_per_sqft": 6196.821821821823,
+      "median_price_lakh": 77.5,
+      "sample_count": 16.0
+    },
+    "Sector 7 HSR Layout": {
+      "median_price_per_sqft": 8500.42992261393,
+      "median_price_lakh": 145.0,
+      "sample_count": 13.0
+    },
+    "Seegehalli": {
+      "median_price_per_sqft": 5000.0,
+      "median_price_lakh": 72.0,
+      "sample_count": 25.0
+    },
+    "Seetharampalya": {
+      "median_price_per_sqft": 5202.342047930284,
+      "median_price_lakh": 73.0,
+      "sample_count": 8.0
+    },
+    "Shampura": {
+      "median_price_per_sqft": 5288.135593220339,
+      "median_price_lakh": 75.0,
+      "sample_count": 13.0
+    },
+    "Shanthala Nagar": {
+      "median_price_per_sqft": 13981.76291793313,
+      "median_price_lakh": 230.0,
+      "sample_count": 5.0
+    },
+    "Shanti Nagar": {
+      "median_price_per_sqft": 8000.0,
+      "median_price_lakh": 167.5,
+      "sample_count": 8.0
+    },
+    "Shantiniketan Layout": {
+      "median_price_per_sqft": 5226.1038054395995,
+      "median_price_lakh": 111.5,
+      "sample_count": 6.0
+    },
+    "Shikaripalya": {
+      "median_price_per_sqft": 3900.3132505666244,
+      "median_price_lakh": 57.120000000000005,
+      "sample_count": 8.0
+    },
+    "Shivaji Nagar": {
+      "median_price_per_sqft": 7041.251778093883,
+      "median_price_lakh": 90.0,
+      "sample_count": 13.0
+    },
+    "Shree Ananth Nagar Layout": {
+      "median_price_per_sqft": 3672.5245653817083,
+      "median_price_lakh": 51.0,
+      "sample_count": 6.0
+    },
+    "Siddapura": {
+      "median_price_per_sqft": 7562.67851475722,
+      "median_price_lakh": 252.5,
+      "sample_count": 6.0
+    },
+    "Sidedahalli": {
+      "median_price_per_sqft": 4988.888888888889,
+      "median_price_lakh": 51.15,
+      "sample_count": 8.0
+    },
+    "Silk Board": {
+      "median_price_per_sqft": 4320.0,
+      "median_price_lakh": 54.0,
+      "sample_count": 5.0
+    },
+    "Singapura Village": {
+      "median_price_per_sqft": 4568.527918781726,
+      "median_price_lakh": 45.0,
+      "sample_count": 7.0
+    },
+    "Singasandra": {
+      "median_price_per_sqft": 4731.6384180790965,
+      "median_price_lakh": 58.0,
+      "sample_count": 27.0
+    },
+    "Somasundara Palya": {
+      "median_price_per_sqft": 5014.511447920026,
+      "median_price_lakh": 69.5,
+      "sample_count": 28.0
+    },
+    "Sompura": {
+      "median_price_per_sqft": 3916.1381254404514,
+      "median_price_lakh": 43.0,
+      "sample_count": 12.0
+    },
+    "Sonnenahalli": {
+      "median_price_per_sqft": 4940.4171303165185,
+      "median_price_lakh": 52.765,
+      "sample_count": 22.0
+    },
+    "Srinivasa Nagar": {
+      "median_price_per_sqft": 6205.555555555555,
+      "median_price_lakh": 76.97,
+      "sample_count": 6.0
+    },
+    "Srirampura": {
+      "median_price_per_sqft": 7967.380410022779,
+      "median_price_lakh": 155.0,
+      "sample_count": 6.0
+    },
+    "Stage-4 Bommanahalli": {
+      "median_price_per_sqft": 3785.714285714286,
+      "median_price_lakh": 55.0,
+      "sample_count": 5.0
+    },
+    "Subramanyapura": {
+      "median_price_per_sqft": 5461.847389558233,
+      "median_price_lakh": 62.5,
+      "sample_count": 43.0
+    },
+    "Sultan Palaya": {
+      "median_price_per_sqft": 6471.010901883053,
+      "median_price_lakh": 72.5,
+      "sample_count": 14.0
+    },
+    "Sunkadakatte": {
+      "median_price_per_sqft": 5333.333333333333,
+      "median_price_lakh": 80.0,
+      "sample_count": 5.0
+    },
+    "Suraksha Nagar": {
+      "median_price_per_sqft": 4003.8092236398397,
+      "median_price_lakh": 62.5,
+      "sample_count": 6.0
+    },
+    "TC Palaya": {
+      "median_price_per_sqft": 5500.0,
+      "median_price_lakh": 66.0,
+      "sample_count": 60.0
+    },
+    "Talaghattapura": {
+      "median_price_per_sqft": 6179.757788948549,
+      "median_price_lakh": 121.5,
+      "sample_count": 40.0
+    },
+    "Tejaswini Nagar": {
+      "median_price_per_sqft": 3888.8888888888887,
+      "median_price_lakh": 59.0,
+      "sample_count": 7.0
+    },
+    "Thanisandra": {
+      "median_price_per_sqft": 5721.551176096631,
+      "median_price_lakh": 72.0,
+      "sample_count": 237.0
+    },
+    "Thigalarapalya": {
+      "median_price_per_sqft": 7372.060784910891,
+      "median_price_lakh": 150.0,
+      "sample_count": 62.0
+    },
+    "Thirumenahalli": {
+      "median_price_per_sqft": 3543.269776415844,
+      "median_price_lakh": 49.165,
+      "sample_count": 8.0
+    },
+    "Thubarahalli": {
+      "median_price_per_sqft": 6066.814764183186,
+      "median_price_lakh": 79.275,
+      "sample_count": 22.0
+    },
+    "Thyagaraja Nagar": {
+      "median_price_per_sqft": 14035.087719298246,
+      "median_price_lakh": 110.0,
+      "sample_count": 11.0
+    },
+    "Tindlu": {
+      "median_price_per_sqft": 5238.0952380952385,
+      "median_price_lakh": 65.0,
+      "sample_count": 11.0
+    },
+    "Tumkur Road": {
+      "median_price_per_sqft": 6333.333333333333,
+      "median_price_lakh": 79.0,
+      "sample_count": 33.0
+    },
+    "Ulsoor": {
+      "median_price_per_sqft": 9411.764705882353,
+      "median_price_lakh": 150.0,
+      "sample_count": 21.0
+    },
+    "Uttarahalli": {
+      "median_price_per_sqft": 4058.514208995301,
+      "median_price_lakh": 50.0,
+      "sample_count": 186.0
+    },
+    "VGP Layout": {
+      "median_price_per_sqft": 4400.0,
+      "median_price_lakh": 55.0,
+      "sample_count": 5.0
+    },
+    "Vajarahalli": {
+      "median_price_per_sqft": 5648.211437685122,
+      "median_price_lakh": 79.5,
+      "sample_count": 8.0
+    },
+    "Varanasi": {
+      "median_price_per_sqft": 5050.0,
+      "median_price_lakh": 80.5,
+      "sample_count": 6.0
+    },
+    "Varthur": {
+      "median_price_per_sqft": 4351.3844119348705,
+      "median_price_lakh": 60.0,
+      "sample_count": 70.0
+    },
+    "Varthur Road": {
+      "median_price_per_sqft": 4203.98406374502,
+      "median_price_lakh": 49.11,
+      "sample_count": 15.0
+    },
+    "Vasanth nagar": {
+      "median_price_per_sqft": 21319.153553988064,
+      "median_price_lakh": 589.0,
+      "sample_count": 8.0
+    },
+    "Vasantha Vallabha Nagar": {
+      "median_price_per_sqft": 4888.888888888889,
+      "median_price_lakh": 76.0,
+      "sample_count": 5.0
+    },
+    "Vasanthapura": {
+      "median_price_per_sqft": 3707.1674267437947,
+      "median_price_lakh": 38.004999999999995,
+      "sample_count": 12.0
+    },
+    "Venkatapura": {
+      "median_price_per_sqft": 7686.063936063936,
+      "median_price_lakh": 200.0,
+      "sample_count": 6.0
+    },
+    "Victoria Layout": {
+      "median_price_per_sqft": 10313.90134529148,
+      "median_price_lakh": 146.0,
+      "sample_count": 7.0
+    },
+    "Vidyaranyapura": {
+      "median_price_per_sqft": 6250.0,
+      "median_price_lakh": 70.0,
+      "sample_count": 43.0
+    },
+    "Vignana Nagar": {
+      "median_price_per_sqft": 5225.225225225226,
+      "median_price_lakh": 58.0,
+      "sample_count": 9.0
+    },
+    "Vijaya Bank Layout": {
+      "median_price_per_sqft": 5666.666666666667,
+      "median_price_lakh": 85.0,
+      "sample_count": 7.0
+    },
+    "Vijayanagar": {
+      "median_price_per_sqft": 6681.550642936308,
+      "median_price_lakh": 97.5,
+      "sample_count": 42.0
+    },
+    "Virat Nagar": {
+      "median_price_per_sqft": 4684.684684684685,
+      "median_price_lakh": 52.0,
+      "sample_count": 5.0
+    },
+    "Vishveshwarya Layout": {
+      "median_price_per_sqft": 5750.0,
+      "median_price_lakh": 95.0,
+      "sample_count": 13.0
+    },
+    "Vishwanatha Nagenahalli": {
+      "median_price_per_sqft": 5558.12876331635,
+      "median_price_lakh": 110.0,
+      "sample_count": 9.0
+    },
+    "Vishwapriya Layout": {
+      "median_price_per_sqft": 4750.578368999422,
+      "median_price_lakh": 66.5,
+      "sample_count": 12.0
+    },
+    "Vishwapriya Nagar": {
+      "median_price_per_sqft": 6666.666666666667,
+      "median_price_lakh": 71.0,
+      "sample_count": 5.0
+    },
+    "Vittasandra": {
+      "median_price_per_sqft": 5216.69341894061,
+      "median_price_lakh": 67.5,
+      "sample_count": 43.0
+    },
+    "Volagerekallahalli": {
+      "median_price_per_sqft": 3185.5670103092784,
+      "median_price_lakh": 33.99,
+      "sample_count": 9.0
+    },
+    "Whitefield": {
+      "median_price_per_sqft": 5608.856088560886,
+      "median_price_lakh": 75.0,
+      "sample_count": 539.0
+    },
+    "Wilson Garden": {
+      "median_price_per_sqft": 10204.081632653062,
+      "median_price_lakh": 135.0,
+      "sample_count": 7.0
+    },
+    "Yelachenahalli": {
+      "median_price_per_sqft": 5548.872180451128,
+      "median_price_lakh": 75.75,
+      "sample_count": 20.0
+    },
+    "Yelahanka": {
+      "median_price_per_sqft": 5056.151813243283,
+      "median_price_lakh": 69.985,
+      "sample_count": 212.0
+    },
+    "Yelahanka New Town": {
+      "median_price_per_sqft": 4800.0,
+      "median_price_lakh": 50.0,
+      "sample_count": 41.0
+    },
+    "Yelenahalli": {
+      "median_price_per_sqft": 3835.625,
+      "median_price_lakh": 47.88,
+      "sample_count": 13.0
+    },
+    "Yemlur": {
+      "median_price_per_sqft": 15833.333333333334,
+      "median_price_lakh": 1675.0,
+      "sample_count": 9.0
+    },
+    "Yeshwanthpur": {
+      "median_price_per_sqft": 5541.353383458647,
+      "median_price_lakh": 90.0,
+      "sample_count": 85.0
+    }
+  },
+  "locations": [
+    "1st Block HRBR Layout",
+    "1st Block Jayanagar",
+    "1st Block Koramangala",
+    "1st Phase JP Nagar",
+    "1st Stage Indira Nagar",
+    "2nd Block Hrbr Layout",
+    "2nd Phase JP Nagar",
+    "2nd Phase Judicial Layout",
+    "2nd Stage Nagarbhavi",
+    "3rd Block Banashankari",
+    "3rd Block Hrbr Layout",
+    "4th Block Koramangala",
+    "4th T block Jayanagar",
+    "5th Block Hbr Layout",
+    "5th Phase JP Nagar",
+    "6th Phase JP Nagar",
+    "6th block Koramangala",
+    "7th Block Jayanagar",
+    "7th Phase JP Nagar",
+    "8th Phase JP Nagar",
+    "8th block Koramangala",
+    "9th Block Jayanagar",
+    "9th Phase JP Nagar",
+    "A Narayanapura",
+    "AECS Layout",
+    "AGS Layout",
+    "Abbaiah Reddy Layout",
+    "Abbigere",
+    "Akshaya Nagar",
+    "Akshaya Vana",
+    "Akshayanagara East",
+    "Akshya Nagar",
+    "Ambalipura",
+    "Ambedkar Colony",
+    "Ambedkar Nagar",
+    "Amblipura",
+    "Amruthahalli",
+    "Amruthnagar",
+    "Anand Nagar",
+    "Anandapura",
+    "Ananth Nagar",
+    "Anekal",
+    "Anjanapura",
+    "Ardendale",
+    "Arekere",
+    "Ashirvad Colony",
+    "Ashwath Nagar",
+    "Ashwathnagar",
+    "Attibele",
+    "Attur Layout",
+    "Austin Town",
+    "Avalahalli",
+    "B Narayanapura",
+    "BEML Layout",
+    "BTM 1st Stage",
+    "BTM 2nd Stage",
+    "BTM Layout",
+    "Babusapalaya",
+    "Badavala Nagar",
+    "Bagalakunte",
+    "Bagalur",
+    "Balagere",
+    "Banagiri Nagar",
+    "Banashankari",
+    "Banashankari Stage II",
+    "Banashankari Stage III",
+    "Banashankari Stage V",
+    "Banashankari Stage VI",
+    "Banaswadi",
+    "Banjara Layout",
+    "Bank Of Baroda Colony",
+    "Bannerghatta",
+    "Bannerghatta Road",
+    "Basapura",
+    "Basavanagara",
+    "Basavanapura",
+    "Basavangudi",
+    "Basaveshwara Nagar",
+    "Basaveshwara Nagar Yelahanka",
+    "Battarahalli",
+    "Begur",
+    "Begur Road",
+    "Belathur",
+    "Bellandur",
+    "Bellari Road",
+    "Benson Town",
+    "Bharathi Nagar",
+    "Bhoganhalli",
+    "Bhuvaneshwari Nagar",
+    "Bileshivale",
+    "Billekahalli",
+    "Binny Pete",
+    "Bisuvanahalli",
+    "Bommanahalli",
+    "Bommasandra",
+    "Bommasandra Industrial Area",
+    "Bommenahalli",
+    "Brookefield",
+    "Budigere",
+    "Byadarahalli",
+    "Byagadadhenahalli",
+    "Byatarayanapura",
+    "Byrasandra",
+    "Byrathi Village",
+    "CV Raman Nagar",
+    "Cambridge Layout",
+    "Canara Bank Colony",
+    "Chamrajpet",
+    "Chandapura",
+    "Chandra Layout",
+    "Channasandra",
+    "Channasandra Layout",
+    "Chelekare",
+    "Chennammana Kere",
+    "Chikka Tirupathi",
+    "Chikkabanavar",
+    "Chikkadunnasandra",
+    "Chikkalasandra",
+    "Cholanayakanahalli",
+    "Choodasandra",
+    "Coconut Grove Layout",
+    "Cooke Town",
+    "Cottonpet",
+    "Cox Town",
+    "Cunningham Road",
+    "Dairy Circle",
+    "Dasanapura",
+    "Dasarahalli",
+    "Defence Colony",
+    "Devanahalli",
+    "Devarabeesana Halli",
+    "Devarachikkanahalli",
+    "Devasthanagalu",
+    "Devi Nagar",
+    "Doctors Layout",
+    "Dodda Banaswadi",
+    "Dodda Nekkundi",
+    "Dodda Nekkundi Extension",
+    "Doddaballapur",
+    "Doddabanahalli",
+    "Doddabommasandra",
+    "Doddakallasandra",
+    "Doddakammanahalli",
+    "Doddakannelli",
+    "Doddanakundi Industrial Area 2",
+    "Doddanekundi",
+    "Doddathoguru",
+    "Dodsworth Layout",
+    "Dollars Colony",
+    "Domlur",
+    "Dommasandra",
+    "Doopanahalli",
+    "EPIP Zone",
+    "Ejipura",
+    "Electronic City",
+    "Electronic City Phase II",
+    "Electronics City Phase 1",
+    "Frazer Town",
+    "GM Palaya",
+    "Ganga Nagar",
+    "Garudachar Palya",
+    "Giri Nagar",
+    "Gollahalli",
+    "Gollarapalya Hosahalli",
+    "Gopalapura",
+    "Gopalkrishna Nagar",
+    "Gottigere",
+    "Govindpura",
+    "Green Glen Layout",
+    "Green View Layout",
+    "Gubbalala",
+    "Gunjur",
+    "Gunjur Palya",
+    "HAL 2nd Stage",
+    "HBR Layout",
+    "HMT Layout",
+    "HOSUR MAIN ROAD",
+    "HRBR Layout",
+    "HSR Layout",
+    "Haralur Road",
+    "Harlur",
+    "Hebbal",
+    "Hebbal Kempapura",
+    "Hegde Nagar",
+    "Hennur",
+    "Hennur Bande",
+    "Hennur Gardens",
+    "Hennur Road",
+    "Hessarghatta",
+    "Hiremath Layout",
+    "Hongasandra",
+    "Hoodi",
+    "Hoodi Circle,",
+    "Horamavu Agara",
+    "Horamavu Banaswadi",
+    "Hormavu",
+    "Hosa Road",
+    "Hosahalli Extension",
+    "Hosakerehalli",
+    "Hoskote",
+    "Hosur Road",
+    "Hoysalanagar",
+    "Hulimavu",
+    "Huskur",
+    "ISRO Layout",
+    "ITI Layout",
+    "ITPL",
+    "Iblur Village",
+    "Indira Nagar",
+    "Ittamadu",
+    "JP Nagar",
+    "Jakkasandra Extension",
+    "Jakkur",
+    "Jakkur Plantation",
+    "Jakkuru Layout",
+    "Jalahalli",
+    "Jalahalli East",
+    "Jalahalli West",
+    "Jayanagar",
+    "Jeevan bima nagar",
+    "Jigani",
+    "Judicial Layout",
+    "KR Garden",
+    "KR Puram",
+    "KUDLU MAIN ROAD",
+    "Kacharakanahalli",
+    "Kada Agrahara",
+    "Kadabagere",
+    "Kadubeesanahalli",
+    "Kadugodi",
+    "Kadugondanahalli",
+    "Kaggadasapura",
+    "Kaggalipura",
+    "Kaikondrahalli",
+    "Kalena Agrahara",
+    "Kalkere",
+    "Kallumantapa",
+    "Kalyan nagar",
+    "Kamakshipalya",
+    "Kambipura",
+    "Kammanahalli",
+    "Kammasandra",
+    "Kanaka Nagar",
+    "Kanakapura",
+    "Kanakpura Road",
+    "Kannamangala",
+    "Karuna Nagar",
+    "Kasavanhalli",
+    "Kasturi Nagar",
+    "Kathriguppe",
+    "Kattigenahalli",
+    "Kaval Byrasandra",
+    "Kaverappa Layout",
+    "Kenchenahalli",
+    "Kengeri",
+    "Kengeri Satellite Town",
+    "Kereguddadahalli",
+    "Keshava Nagar",
+    "Kodbisanhalli",
+    "Kodichikkanahalli",
+    "Kodigehaali",
+    "Kodigehalli",
+    "Kodihalli",
+    "Kogilu",
+    "Konanakunte",
+    "Koramangala",
+    "Kothannur",
+    "Kothanur",
+    "Kudlu",
+    "Kudlu Gate",
+    "Kumara Park",
+    "Kumaraswami Layout",
+    "Kundalahalli",
+    "Kundalahalli Colony",
+    "Kurubarahalli",
+    "LB Shastri Nagar",
+    "Laggere",
+    "Lakshminarayana Pura",
+    "Lavelle Road",
+    "Lingadheeranahalli",
+    "Lingarajapuram",
+    "MS Pallya",
+    "Madiwala",
+    "Magadi Road",
+    "Mahadevpura",
+    "Mahalakshmi Layout",
+    "Mahalakshmi Puram",
+    "Maithri Layout",
+    "Mallasandra",
+    "Mallathahalli",
+    "Malleshpalya",
+    "Malleshwaram",
+    "Manayata Tech Park",
+    "Maragondanahalli",
+    "Marathahalli",
+    "Margondanahalli",
+    "Marsur",
+    "Maruthi Nagar",
+    "Maruthi Sevanagar",
+    "Mathikere",
+    "Medahalli",
+    "Meenakunte",
+    "Mico Layout",
+    "Motappa Layout",
+    "Munivenkatppa Layout",
+    "Munnekollal",
+    "Murugeshpalya",
+    "Mysore Road",
+    "NGR Layout",
+    "NRI Layout",
+    "Nagadevanahalli",
+    "Naganathapura",
+    "Nagappa Reddy Layout",
+    "Nagaraja Garden",
+    "Nagarbhavi",
+    "Nagasandra",
+    "Nagashetty Halli",
+    "Nagavara",
+    "Nagavarapalya",
+    "Nagawara Junction",
+    "Nagondanahalli",
+    "Nallurhalli",
+    "Narayanapura",
+    "Nayandanahalli",
+    "Neeladri Nagar",
+    "Nehru Nagar",
+    "Nelamangala",
+    "New Gurappana Palya",
+    "New Thippasandra",
+    "OMBR Layout",
+    "Off Sarjapur Road,",
+    "Old Airport Road",
+    "Old Madras Road",
+    "Other",
+    "Outer Ring Road East",
+    "Padmanabhanagar",
+    "Pai Layout",
+    "Panathur",
+    "Parappana Agrahara",
+    "Pattanagere",
+    "Pattandur Agrahara",
+    "Peenya",
+    "Poorna Pragna Layout",
+    "Prithvi Layout",
+    "R.T. Nagar",
+    "RMV 2nd Stage",
+    "RMV Extension",
+    "Rachenahalli",
+    "Raghuvanahalli",
+    "Raja Rajeshwari Nagar",
+    "Rajaji Nagar",
+    "Rajiv Gandhi Nagar",
+    "Rajiv Nagar",
+    "Ramagondanahalli",
+    "Ramakrishnappa Layout",
+    "Ramamurthy Nagar",
+    "Ramanjaneyanagar",
+    "Rayasandra",
+    "Reliaable Tranquil Layout",
+    "Richards Town",
+    "Richmond Town",
+    "Roopena Agrahara",
+    "Rustam Bagh Layout",
+    "Sadashiva Nagar",
+    "Sahakara Nagar",
+    "Samethanahalli",
+    "Sanjay nagar",
+    "Sarakki Nagar",
+    "Sarjapur",
+    "Sarjapur  Road",
+    "Sarjapur Road,",
+    "Sarjapura - Attibele Road",
+    "Sathya Sai Layout",
+    "Sector 1 HSR Layout",
+    "Sector 2 HSR Layout",
+    "Sector 7 HSR Layout",
+    "Seegehalli",
+    "Seetharampalya",
+    "Shampura",
+    "Shanthala Nagar",
+    "Shanti Nagar",
+    "Shantiniketan Layout",
+    "Shikaripalya",
+    "Shivaji Nagar",
+    "Shree Ananth Nagar Layout",
+    "Siddapura",
+    "Sidedahalli",
+    "Silk Board",
+    "Singapura Village",
+    "Singasandra",
+    "Somasundara Palya",
+    "Sompura",
+    "Sonnenahalli",
+    "Srinivasa Nagar",
+    "Srirampura",
+    "Stage-4 Bommanahalli",
+    "Subramanyapura",
+    "Sultan Palaya",
+    "Sunkadakatte",
+    "Suraksha Nagar",
+    "TC Palaya",
+    "Talaghattapura",
+    "Tejaswini Nagar",
+    "Thanisandra",
+    "Thigalarapalya",
+    "Thirumenahalli",
+    "Thubarahalli",
+    "Thyagaraja Nagar",
+    "Tindlu",
+    "Tumkur Road",
+    "Ulsoor",
+    "Uttarahalli",
+    "VGP Layout",
+    "Vajarahalli",
+    "Varanasi",
+    "Varthur",
+    "Varthur Road",
+    "Vasanth nagar",
+    "Vasantha Vallabha Nagar",
+    "Vasanthapura",
+    "Venkatapura",
+    "Victoria Layout",
+    "Vidyaranyapura",
+    "Vignana Nagar",
+    "Vijaya Bank Layout",
+    "Vijayanagar",
+    "Virat Nagar",
+    "Vishveshwarya Layout",
+    "Vishwanatha Nagenahalli",
+    "Vishwapriya Layout",
+    "Vishwapriya Nagar",
+    "Vittasandra",
+    "Volagerekallahalli",
+    "Whitefield",
+    "Wilson Garden",
+    "Yelachenahalli",
+    "Yelahanka",
+    "Yelahanka New Town",
+    "Yelenahalli",
+    "Yemlur",
+    "Yeshwanthpur"
+  ]
+}
